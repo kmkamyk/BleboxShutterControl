@@ -4,6 +4,36 @@
 
 ![Screenshot of BleboxShutterControl](screenshot.png)
 
+## Installation
+
+#### Download Binaries
+
+You can download the latest pre-production binaries from the [Releases](https://github.com/your-username/your-repository/releases) section.
+
+#### Installation Steps
+
+1. Download the binary file from the [Releases](https://github.com/kmkamyk/BleboxShutterControl/releases) section.
+2. Unzip the downloaded file if it is compressed.
+3. Move the `ShutterBoxControl.app` to your `Applications` folder.
+4. Open the `ShutterBoxControl.app` from your `Applications` folder.
+
+### Build from Source
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/kmkamyk/BleboxShutterControl.git
+    ```
+
+2. Open the Xcode project:
+    ```bash
+    open ShutterBoxControl.xcodeproj
+    ```
+
+3. Build the project in Xcode:
+    - Select the `ShutterBoxControl` scheme.
+    - Select your target device or `My Mac`.
+    - Press `Cmd + R` to build and run the application.
+
 ## Features
 
 - Add new shutters using their URL
@@ -12,23 +42,6 @@
 - Automatically save and load shutters from a JSON file
 - Fetch and display current shutter positions
 - Periodically refresh shutter positions every 5 seconds
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/kmkamyk/BleboxShutterControl.git
-    ```
-
-2. Open the project in Xcode:
-    ```bash
-    cd BleboxShutterControl
-    open Project/BleboxShutterControl.xcodeproj
-    ```
-
-3. Build and run the application:
-    - Select the target device (e.g., "My Mac")
-    - Click the "Run" button or press `Cmd+R`
 
 ## Usage
 
@@ -44,38 +57,6 @@
 
 4. To remove a shutter:
     - Click the trash icon next to the corresponding shutter.
-
-## File Structure
-
-- `AppDelegate.swift`: Sets up the application and status bar controller.
-- `ContentView.swift`: The main view of the application containing the list of shutters and controls for adding new shutters.
-- `PopoverController.swift`: Manages the popover that displays the content view.
-- `StatusBarController.swift`: Manages the status bar item and its interactions.
-- `ShutterBoxAPI.swift`: Handles API requests, loading/saving shutters, and refreshing shutter positions.
-
-## Classes
-
-### `ShutterBoxAPI`
-
-- Manages the list of shutters.
-- Provides methods for fetching and setting shutter positions.
-- Saves and loads shutters from a JSON file.
-
-### `Shutter`
-
-- Represents a single shutter with a base URL and position.
-
-### `ShutterStateResponse`, `ShutterState`, `ShutterPosition`
-
-- Models for decoding the API responses.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
 
 ## License
 
