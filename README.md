@@ -1,6 +1,6 @@
 # BleboxShutterControl
 #### Please note that this is a weekend project created out of a desire to learn Xcode and explore whether, with the help of AI, I can develop a simple macOS application.
-### BleboxShutterControl is a macOS application for controlling shutters (shutterbox) by Blebox company. The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local [API issued by shutterbox](https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html) roller shutter controllers 
+#### BleboxShutterControl is a macOS application for controlling shutters (shutterbox) by Blebox company. The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local [API issued by shutterbox](https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html) roller shutter controllers 
 
 ![Screenshot of BleboxShutterControl](screenshot.png)
 
