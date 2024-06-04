@@ -1,6 +1,10 @@
-# ShutterBoxApp
+# BleboxShutterControl
 
-ShutterBoxApp is a macOS application for controlling shutters (shutterbox) by Blebox company. The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local API issued by shutterbox roller shutter controllers https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html
+BleboxShutterControl is a macOS application for controlling shutters (shutterbox) by Blebox company. The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local API issued by shutterbox roller shutter controllers https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html
+
+## Screenshot
+
+![Screenshot of BleboxShutterControl](screenshot.png)
 
 ## Features
 
@@ -15,13 +19,13 @@ ShutterBoxApp is a macOS application for controlling shutters (shutterbox) by Bl
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ShutterBoxApp.git
+    git clone https://github.com/yourusername/BleboxShutterControl.git
     ```
 
 2. Open the project in Xcode:
     ```bash
-    cd ShutterBoxApp
-    open Project/ShutterBoxApp.xcodeproj
+    cd BleboxShutterControl
+    open Project/BleboxShutterControl.xcodeproj
     ```
 
 3. Build and run the application:
