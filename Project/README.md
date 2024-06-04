@@ -21,7 +21,7 @@ ShutterBoxApp is a macOS application for controlling shutters by Blebox (shutter
 2. Open the project in Xcode:
     ```bash
     cd ShutterBoxApp
-    open ShutterBoxApp.xcodeproj
+    open Project/ShutterBoxApp.xcodeproj
     ```
 
 3. Build and run the application:
