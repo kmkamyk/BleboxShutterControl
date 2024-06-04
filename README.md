@@ -8,7 +8,7 @@
 
 #### Download Binaries
 
-You can download the latest pre-production binaries from the [Releases](https://github.com/your-username/your-repository/releases) section.
+You can download the latest pre-production binaries from the [Releases](https://github.com/kmkamyk/BleboxShutterControl/releases) section.
 
 #### Installation Steps
 
