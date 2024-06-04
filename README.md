@@ -1,6 +1,6 @@
 # ShutterBoxApp
 
-ShutterBoxApp is a macOS application for controlling shutters by Blebox (shutterbox). The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local API issued by shutterbox roller shutter controllers https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html
+ShutterBoxApp is a macOS application for controlling shutters (shutterbox) by Blebox company. The application works exclusively from the status bar, allowing users to add, remove, and adjust the position of shutters. Application uses the local API issued by shutterbox roller shutter controllers https://technical.blebox.eu/openapi_shutterbox/openAPI_shutterBox_20190911.html
 
 ## Features
 
