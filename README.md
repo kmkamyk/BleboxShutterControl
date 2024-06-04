@@ -19,7 +19,7 @@ BleboxShutterControl is a macOS application for controlling shutters (shutterbox
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/BleboxShutterControl.git
+    git clone https://github.com/kmkamyk/BleboxShutterControl.git
     ```
 
 2. Open the project in Xcode:
