@@ -26,7 +26,7 @@ You can download the latest pre-production binaries from the [Releases](https://
 
 2. Open the Xcode project:
     ```bash
-    open ShutterBoxControl.xcodeproj
+    open Project/ShutterBoxControl.xcodeproj
     ```
 
 3. Build the project in Xcode:
